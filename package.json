@@ -1,0 +1,19 @@
+{
+  "name": "trie",
+  "version": "0.0.0",
+  "description": "Trie",
+  "main": "lib/Trie.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:benqus/trie.git"
+  },
+  "keywords": [
+    "trie"
+  ],
+  "author": "Bence Kormos <ben.kormos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benqus/trie/issues"
+  },
+  "homepage": "https://github.com/benqus/trie"
+}
