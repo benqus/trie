@@ -14,11 +14,11 @@
             assert.deepEqual(trie.search('blu'), [
                 {
                     match: 'blur',
-                    label: []
+                    labels: []
                 },
                 {
                     match: 'blurry',
-                    label: []
+                    labels: []
                 }
             ]);
         });
@@ -33,11 +33,11 @@
             assert.deepEqual(trie.search('blur'), [
                 {
                     match: 'blur',
-                    label: []
+                    labels: []
                 },
                 {
                     match: 'blurry',
-                    label: []
+                    labels: []
                 }
             ]);
         });
@@ -54,7 +54,7 @@
             assert.deepEqual(trie.search('blu', 'e'), [
                 {
                     match: 'blurry',
-                    label: ['d', 'e', 'f']
+                    labels: ['d', 'e', 'f']
                 }
             ]);
         });
@@ -69,7 +69,7 @@
             assert.deepEqual(trie.search('blu'), [
                 {
                     match: 'blurry',
-                    label: ['d', 'e', 'f']
+                    labels: ['d', 'e', 'f']
                 }
             ]);
         });
@@ -102,15 +102,15 @@
             assert.deepEqual(trie.search('', 'e'), [
                 {
                     match: 'bla',
-                    label: ['b', 'e']
+                    labels: ['b', 'e']
                 },
                 {
                     match: 'blur',
-                    label: ['c', 'e']
+                    labels: ['c', 'e']
                 },
                 {
                     match: 'blurry',
-                    label: ['d', 'e']
+                    labels: ['d', 'e']
                 }
             ]);
         });

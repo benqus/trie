@@ -22,7 +22,7 @@ Will return:
 
     {
         match: 'gum',
-        label: []
+        labels: []
     }
     
 ### Example 2:
@@ -32,11 +32,11 @@ Will return:
 Will return:
 
     [
-        {match: 'bla', label: []},
-        {match: 'blend', label: []},
-        {match: 'blur', label: []},
-        {match: 'blurry', label: []},
-        {match: 'bond', label: []}
+        {match: 'bla', labels: []},
+        {match: 'blend', labels: []},
+        {match: 'blur', labels: []},
+        {match: 'blurry', labels: []},
+        {match: 'bond', labels: []}
     ];
     
 ## Labeling
@@ -54,8 +54,8 @@ Will return:
 Will return:
 
     [
-        {match: 'bla', label: ['a', 'b']},
-        {match: 'blur', label: ['a', 'b']}
+        {match: 'bla', labels: ['a', 'b']},
+        {match: 'blur', labels: ['a', 'b']}
     ];
 
 ### Example 2:
@@ -65,7 +65,7 @@ Will return:
 Will return:
 
     [
-        {match: 'bla', label: ['a', 'b']},
-        {match: 'blurry', label: ['b', 'c']}
+        {match: 'bla', labels: ['a', 'b']},
+        {match: 'blurry', labels: ['b', 'c']}
     ];
     
