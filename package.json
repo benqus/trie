@@ -1,11 +1,14 @@
 {
   "name": "trie",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Trie",
   "main": "lib/Trie.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:benqus/trie.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test"
   },
   "keywords": [
     "trie"
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/benqus/trie/issues"
   },
-  "homepage": "https://github.com/benqus/trie"
+  "homepage": "https://github.com/benqus/trie",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha": "^0.4.11"
+  }
 }
